@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+@media(max-width: 700px){
+    .title-ds{
+        width: 50%;
+        color: white;
+        position:absolute;
+        top: 13%;
+        left: 24%;
+        text-align: center;
+    }
+    .title-ds h1 {
+    Font-size: 50PX;
+    }
+    .header h3{
+        padding: 15px 5px;
+        font-size: 20px;
+    }
+    .title-ds p {
+        margin: 15px 0 30px;
+        font-size: 15px;
+        font-family: Tahoma;
+        width: auto;}
+    .profile-image{
+            width: 10%;
+              position: absolute;
+              top: 24.55%;
+              left: 40%;
+    }
+      nav span {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .nav-menu{
+        position: absolute;
+        background: rgba(0, 0, 0, 0.904);
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        text-align: left;
+        z-index: 1;
+        transition: 1s ;
+    }
+    .nav-menu ul li{
+        display: block;
+        margin: 10px;
+    }
+    .row{
+      flex-direction: column;
+    }
+}
+
+
+---------------
+
